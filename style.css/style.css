@@ -100,7 +100,7 @@ body {
 
 /* Speakers Section */
 .speakers {
-  padding: 80px 60px;
+  padding: 30px 25px;
   background-color: whitesmoke;
 }
 
@@ -114,33 +114,138 @@ body {
 .speaker-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  gap: 40px;
 }
 
 .speaker-card {
   border: none;
+  background-color: rgba(238, 233, 233, 0.968);
+  border-radius: 20px;
 }
 
 .speaker-card img {
-  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
 }
 
 .speaker-card p {
   color: #1d4ed8;
   font-size: 12px;
-  font-style: bold;
+  font-weight: bold;
   padding: 5px;
+  margin: 5px;
 }
 
 .speaker-card h2 {
   font-size: 20px;
   font-style: bold;
   padding: 5px;
+  margin: 5px;
 }
 
 .speaker-card span {
   font-size: 14px;
   font-style: bold;
   padding: 5px;
+  margin: 5px;
 }
 /* Speakers Section end */
+
+/* Pricing  Section*/
+.pricing {
+  padding: 30px 20px;
+  background: rgba(238, 233, 233, 0.968);
+}
+
+.pricing-heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.pricing-heading h2 {
+  color: #0d1b2a;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.pricign-heading p {
+  color: #575757;
+  font-size: 16px;
+}
+
+.pricing-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  padding: 40px 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.card h1 {
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+
+.card ul,
+h1,
+p {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.card ul li {
+  margin: 15px 0px;
+  color: #333333;
+}
+
+.card button {
+  width: 100%;
+  padding: 14px;
+  border-color: #1d4ed8;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #1d4ed8;
+}
+
+.featured {
+  background-color: #0d1b2a;
+  color: white;
+  transform: scale(1.05);
+}
+
+.featured h1,
+.featured p,
+.featured ul li {
+  color: white;
+}
+
+.featured button {
+  background-color: #1d4ed8;
+}
+
+.featured button:hover {
+  background-color: #0d308d;
+}
