@@ -50,11 +50,7 @@ body {
 /* Menu end */
 
 /* Button */
-.nav-btn {
-  justify-content: end;
-}
-
-.nav-btn button {
+.common-btn {
   padding: 10px 20px;
   background-color: #1d4ed8;
   color: white;
@@ -69,3 +65,34 @@ body {
   background-color: #0d308d;
 }
 /* Button end */
+
+/* hero section */
+.hero {
+  height: 800px;
+  background-image: url('/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.hero-content h2 {
+  font-size: 80px;
+  color: white;
+  margin-top: 80px;
+}
+
+.hero-content p {
+  color: white;
+  font-size: 22px;
+}
+
+.hero-content button {
+  margin-top: 450px;
+}
